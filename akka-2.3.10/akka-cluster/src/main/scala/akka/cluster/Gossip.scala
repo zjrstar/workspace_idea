@@ -10,7 +10,7 @@ import akka.cluster.protobuf.ClusterMessageSerializer
 import scala.concurrent.duration.Deadline
 
 /**
- * INTERNAL API
+ * INTERNAL API 下一步就是研究Gossip的执行流程，以及执行原理
  */
 private[cluster] object Gossip {
   val emptyMembers: immutable.SortedSet[Member] = immutable.SortedSet.empty
